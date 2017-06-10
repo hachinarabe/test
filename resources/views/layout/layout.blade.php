@@ -11,11 +11,11 @@
         <![endif]-->
     </head>
     <body>
-        @include('navber')
+        @include('layout.navber')
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 hidden-xs">
-                    @include('sidebar')
+                    @include('layout.sidebar')
                 </div>
                 <div class="col-sm-8">
                     @yield('content')
@@ -25,7 +25,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    @include('footer')
+                    @include('layout.footer')
                 </div>
             </div>
             @section('endbody')

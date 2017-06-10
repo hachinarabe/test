@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layout.layout')
 
 @section('title', 'Page Title')
 
@@ -24,7 +24,7 @@
                         <td>1</td>
                         <td>コントローラからビューを呼び出して表示</td>
                         <td>高</td>
-                        <td>これから</td>
+                        <td>完了</td>
                     </tr>
                     <tr>
                         <td>2</td>
@@ -37,6 +37,12 @@
                         <td>この表もDBから取り出す</td>
                         <td>低</td>
                         <td>暇つぶしでやろう</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>ログイン機能実装</td>
+                        <td>高</td>
+                        <td>これから</td>
                     </tr>
                 </tbody>
             </table>
